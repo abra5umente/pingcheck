@@ -21,7 +21,6 @@ It checks every 5 minutes and won't spam you during sleep hours (1 AM – 7 AM).
 - Makes HTTP requests to each service to see if they respond.
 - Tracks whether each service was previously up or down to avoid duplicate alerts.
 - Sends notifications using Pushover API if a service goes down or comes back up.
-- User configurable quiet-hours
 
 Logs are written to `service_monitor.log` and rotated daily, with 7 days kept as default.
 
